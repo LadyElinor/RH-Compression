@@ -1,0 +1,8 @@
+Candidate d4e7aaaaac1c4d07b3eadf35638fedfbb4ab3509
+Baseline 9e273ce65776c200fb97b7edaa288d637632bf7d
+Module ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RankLin
+Matching Lake input e74cb022a4054f6b
+Verified 22234f5a167218ac.ltar (42698 bytes, SHA-256 eec801c784a70be061116cf5e69a06b60db2d334e5e37cf3830019db2bcaf0f6)
+All targets up-to-date (18250 jobs).
+replaying ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.RankLin
+PASS: cached module accepted by stock Lake and replayed by Lean's kernel.

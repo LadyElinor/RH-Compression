@@ -1,0 +1,38 @@
+{
+  "checkpoint_utc": "2026-11-23T20:42:52+00:00",
+  "source_revision": "d4e7aaaaac1c4d07b3eadf35638fedfbb4ab3509",
+  "source_tree": "88e6ed20f4e894e0570c00b396414a1c9dfbd940",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "targets": [
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SplitKernelFormalGroupOfRationalTorsion",
+      "olean_present": false
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHvPrimaryKernel",
+      "olean_present": false
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHarmonicValuesFormalKernelSimilitude",
+      "olean_present": false
+    }
+  ],
+  "command": [
+    "lake",
+    "--no-ansi",
+    "--fail-fast",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SplitKernelFormalGroupOfRationalTorsion:olean",
+    "+Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHvPrimaryKernel:olean",
+    "+Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHarmonicValuesFormalKernelSimilitude:olean"
+  ],
+  "local_build_state_at_checkpoint": "compiling prerequisites",
+  "distinct_modules_reported_built_by_this_command": 178,
+  "last_completed_modules": [
+    "Formalism.TameInertiaTowers.TowerFieldFoundations",
+    "Formalism.FrobeniusOrbits.Bundle0001",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield"
+  ],
+  "build_log_prefix_bytes": 468273,
+  "build_log_prefix_sha256": "1505e4de46166a91a28fc2bc43bb679dd8301ad2373f359b7e92d2652d6d50e1"
+}

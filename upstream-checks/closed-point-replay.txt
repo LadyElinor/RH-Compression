@@ -1,0 +1,15 @@
+Selected output from the local merged-revision build and replay; verbose dependency warnings omitted.
+
+Revision d4e7aaaaac1c4d07b3eadf35638fedfbb4ab3509
+Source SHA-256 f7ec8fe7bc4f5880566a8f5dc501cbc248b20a2ab0227f372a6db8a95be5a852
+OLean SHA-256 ba492ec49d001273d83b628824544ed995ca39ad8f2f390dbacac2a2f0835fa7
+
+⚠ [18414/18414] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ToStkAInjective (3.1s)
+Build completed successfully (18414 jobs).
+replaying ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ToStkAInjective
+Exit code 0
+Unabridged local build and replay log SHA-256 d5aae81d74fd300c041306c4f9bbc94ac1f45c157b0ec2f78169a1ecf20405e0
+
+Merged checkout, stock lake --no-build after incorporating the verified dependency artifacts:
+All targets up-to-date (18414 jobs).
+Exit code 0
