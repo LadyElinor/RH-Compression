@@ -27,6 +27,10 @@ lake env leanchecker --verbose "$module"
 
 The other complete dependency we built and kernel-replayed is `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001`. The repaired module imports it directly. We ran the same two commands with this module name after all timings finished, on the same pinned consolidation revision. Its complete source is also the input to the [six-file timing comparison](../benchmark/README.md). [Compiler and kernel replay output](formal-group-bundle.txt)
 
+## Focused build and kernel replays
+
+The [focused build record](focused-build.md) follows the repaired module alone on the merged revision. Lake accepted six of its eleven direct project imports with rebuilding disabled. The record lists the individual kernel checks and measures the disk cost of generated setup files. The complete module remains open.
+
 ## Integration build on the merged revision
 
 We requested the three named modules together on a clean source checkout of `d4e7aaaaac1c4d07b3eadf35638fedfbb4ab3509`, with pinned Mathlib and the two previously verified dependency builds. The first target has 10,185 distinct project modules in its transitive import tree, including itself. The two importers have 18,278 and 18,273 respectively, with 18,278 across the combined request. These counts exclude Mathlib and Lean's own modules. At 20:42 UTC the running three-target command had reported 178 distinct prerequisite modules built. None of the three requested output files existed at that checkpoint. [Timestamped local build record](integration-checkpoint.json)
