@@ -1,0 +1,30 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+matrix-rewrite/GramBefore.lean:9:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  c ᵥ* A
+in the target expression
+  c ⬝ᵥ A *ᵥ w = 0
+
+K : Type
+inst✝ : Field K
+n : ℕ
+A : Matrix (Fin n) (Fin n) K
+c w : Fin n → K
+hc : c ᵥ* A = 0
+⊢ c ⬝ᵥ A *ᵥ w = 0
+matrix-rewrite/GramBefore.lean:13:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?v ᵥ* ?M ᵥ* ?N
+in the target expression
+  Pi.single i 1 ᵥ* A⁻¹ ⬝ᵥ A *ᵥ w = w i
+
+K : Type
+inst✝ : Field K
+n : ℕ
+A : Matrix (Fin n) (Fin n) K
+hd : A.det ≠ 0
+w : Fin n → K
+i : Fin n
+⊢ Pi.single i 1 ᵥ* A⁻¹ ⬝ᵥ A *ᵥ w = w i
+replaying GramAfter
+'GramRepair.kernel_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GramRepair.inverse_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: both original rewrites failed and both repaired proofs passed kernel replay.

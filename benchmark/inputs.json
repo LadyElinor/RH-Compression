@@ -1,0 +1,38 @@
+{
+  "base_sha": "c7791603122c0328f79e49f6be5d7d4402effc53",
+  "candidate_sha": "eb1bc40eb455decc150131a2f2fca72c72ae3a2d",
+  "candidate_path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/Bundle0001.lean",
+  "candidate_sha256": "d621ac8a0b0620cd1eadb873522f829896c3073dd2d13973e235af630736d68d",
+  "files": [
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPolynomialSubMem",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsPolynomialSubMem.lean",
+      "sha256": "36caae342b402701940297dd7a425bcc8163a99345c874ba87451f30ceb4cf7c"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FlatMvPowerSeries.lean",
+      "sha256": "cfdce3a488adc0c6dbc33648b6bcfe331780e2b79c4e9f1610fad55c50268f77"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FormallyUnramifiedOfIsReduced",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FormallyUnramifiedOfIsReduced.lean",
+      "sha256": "b8d383cba92ba9aff5f4d96281547f8715b5c463c1eeebca3897331b830c7f63"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMem",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAdicCompleteOfFgOfNatCastMem.lean",
+      "sha256": "232eb3f6e054e9f7c3b587f84ff9fbc6bd4a38875cb181a163b5a88accab9ede"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsReducedGenericFibreOfIsReduced",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsReducedGenericFibreOfIsReduced.lean",
+      "sha256": "b1b2e39415737a245a1507fab503ec77334c9b1181344a3c689fe0e85213c639"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesMemMapCOfCoeffMem",
+      "path": "src/Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/MvPowerSeriesMemMapCOfCoeffMem.lean",
+      "sha256": "63125007617e036bc662f1d0f8bd6e284c602f6e9dc96861c5a3abcb33246e68"
+    }
+  ]
+}

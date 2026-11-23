@@ -1,0 +1,150 @@
+{
+  "started_utc": "2026-11-23T20:13:16.484091+00:00",
+  "os": "Linux",
+  "arch": "x86_64",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "original_commit": "c7791603122c0328f79e49f6be5d7d4402effc53",
+  "candidate_commit": "eb1bc40eb455decc150131a2f2fca72c72ae3a2d",
+  "lean_flags": [
+    "-j1",
+    "--tstack=400000",
+    "-DautoImplicit=false",
+    "-DrelaxedAutoImplicit=false",
+    "-DmaxSynthPendingDepth=3",
+    "-Dpp.unicode.fun=true",
+    "-DmaxHeartbeats=4000000"
+  ],
+  "rounds": [
+    {
+      "pair": 1,
+      "mode": "separate",
+      "files": [
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsPolynomialSubMem.lean",
+          "wall_s": 4.6998,
+          "peak_rss_kib": 3507632,
+          "user_s": 3.0719,
+          "system_s": 0.8547
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FlatMvPowerSeries.lean",
+          "wall_s": 2.3887,
+          "peak_rss_kib": 3500788,
+          "user_s": 1.7792,
+          "system_s": 0.5921
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FormallyUnramifiedOfIsReduced.lean",
+          "wall_s": 4.241,
+          "peak_rss_kib": 3527460,
+          "user_s": 3.465,
+          "system_s": 0.7459
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAdicCompleteOfFgOfNatCastMem.lean",
+          "wall_s": 2.6369,
+          "peak_rss_kib": 3506848,
+          "user_s": 1.9934,
+          "system_s": 0.6428
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsReducedGenericFibreOfIsReduced.lean",
+          "wall_s": 2.1585,
+          "peak_rss_kib": 3495272,
+          "user_s": 1.6006,
+          "system_s": 0.5522
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/MvPowerSeriesMemMapCOfCoeffMem.lean",
+          "wall_s": 2.3449,
+          "peak_rss_kib": 3505432,
+          "user_s": 1.7351,
+          "system_s": 0.6068
+        }
+      ],
+      "total_compiler_wall_s": 18.4698,
+      "max_process_rss_kib": 3527460
+    },
+    {
+      "pair": 1,
+      "mode": "bundle",
+      "files": [
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/Bundle0001.lean",
+          "wall_s": 6.2093,
+          "peak_rss_kib": 3557432,
+          "user_s": 5.4805,
+          "system_s": 0.728
+        }
+      ],
+      "total_compiler_wall_s": 6.2093,
+      "max_process_rss_kib": 3557432
+    },
+    {
+      "pair": 2,
+      "mode": "bundle",
+      "files": [
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/Bundle0001.lean",
+          "wall_s": 6.5828,
+          "peak_rss_kib": 3512068,
+          "user_s": 5.7122,
+          "system_s": 0.7918
+        }
+      ],
+      "total_compiler_wall_s": 6.5828,
+      "max_process_rss_kib": 3512068
+    },
+    {
+      "pair": 2,
+      "mode": "separate",
+      "files": [
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/ExistsPolynomialSubMem.lean",
+          "wall_s": 4.728,
+          "peak_rss_kib": 3516748,
+          "user_s": 3.0425,
+          "system_s": 0.9391
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FlatMvPowerSeries.lean",
+          "wall_s": 2.446,
+          "peak_rss_kib": 3501308,
+          "user_s": 1.8535,
+          "system_s": 0.5867
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/FormallyUnramifiedOfIsReduced.lean",
+          "wall_s": 4.0989,
+          "peak_rss_kib": 3527644,
+          "user_s": 3.5059,
+          "system_s": 0.5857
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsAdicCompleteOfFgOfNatCastMem.lean",
+          "wall_s": 2.755,
+          "peak_rss_kib": 3506888,
+          "user_s": 2.0948,
+          "system_s": 0.6466
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/IsReducedGenericFibreOfIsReduced.lean",
+          "wall_s": 2.1508,
+          "peak_rss_kib": 3493240,
+          "user_s": 1.5575,
+          "system_s": 0.5876
+        },
+        {
+          "file": "Development/AbelianVarietyTheory/Proofs/FormalGroupCharts/MvPowerSeriesMemMapCOfCoeffMem.lean",
+          "wall_s": 2.7557,
+          "peak_rss_kib": 3503404,
+          "user_s": 2.0304,
+          "system_s": 0.714
+        }
+      ],
+      "total_compiler_wall_s": 18.9344,
+      "max_process_rss_kib": 3527644
+    }
+  ]
+}

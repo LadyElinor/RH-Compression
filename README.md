@@ -1,6 +1,14 @@
 # RH Compression
 
-This repository records independent Lean checks for the effort to consolidate the formalization published by Levent Alpöge. Its first case reproduces a failure in one proof line and tests the repair submitted by **dga471**. [Original source](https://alpo.ge/remark.pdf) · [Rohan Arun’s consolidation PR #120](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [dga471’s repair, PR #266](https://github.com/rohanarun/riemann-hypothesis/pull/266)
+This repository records independent Lean checks for the effort to consolidate the formalization published by Levent Alpöge. The checks below cover two repairs submitted by **dga471**, two full upstream dependencies, and the cost of compiling six original modules separately or as one bundle. [Original source](https://alpo.ge/remark.pdf) · [Rohan Arun’s consolidation PR #120](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [dga471’s repair, PR #266](https://github.com/rohanarun/riemann-hypothesis/pull/266)
+
+## Results
+
+| Study | What the test covers |
+| --- | --- |
+| [Six files versus one bundle](benchmark/README.md) | Timings and peak process memory from four paired comparisons of the same proof bodies under Lean 4.36.0. |
+| [Matrix rewrites in PR #272](matrix-rewrite/README.md) | Two failures reproduce in isolation. Both repaired algebraic steps compile and pass kernel replay. |
+| [Extent of upstream verification](upstream-checks/README.md) | Two complete upstream dependencies compiled and passed kernel replay. The record identifies the remaining full-module check for PR #266. |
 
 ## Why one name broke the build
 
@@ -31,11 +39,11 @@ The test expects the original proof to fail with the closed-point diagnostic. It
 | Reduced theorem | The unqualified line produces the reported error. The qualified line compiles and its proof passes kernel replay. |
 | Full consolidated RH proof | This run covers the reduced theorem only. Checking the original module, its importers, and the five exported theorems requires the corresponding upstream build and theorem comparison. |
 
-PR #120 reports a reduction from 149,396 to 47,884 Lean source files. Measuring compile time and peak memory requires comparable builds on the same hardware, toolchain and cache settings. The recorded check supplies neither measurement. [Upstream consolidation and verification](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [Project contributor guide](https://github.com/rohanarun/alpoge-rh-replay/blob/main/auto-research.md)
+PR #120 reports a reduction from 149,396 to 47,884 Lean source files. Measuring compile time and peak memory requires comparable builds on the same hardware, toolchain and cache settings. The [six-file timing study](benchmark/README.md) measures one bundle under a serial compiler workload. [Upstream consolidation and verification](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [Project contributor guide](https://github.com/rohanarun/alpoge-rh-replay/blob/main/auto-research.md)
 
 ## Source credits
 
-Levent Alpöge published the original formalization. Rohan Arun and the consolidation contributors maintain the candidate. **dga471** submitted the one-line repair. LadyElinor’s project used OpenAI Codex to construct and run this independent reduced test. It uses the Lean compiler and the Mathlib community’s algebraic geometry and power series libraries.
+Levent Alpöge published the original formalization. Rohan Arun and the consolidation contributors maintain the candidate. **dga471** submitted the simplifier and matrix repairs. LadyElinor’s project used OpenAI Codex to run the independent proof checks and timing comparison. It uses the Lean compiler and the Mathlib community’s algebraic geometry and power series libraries.
 
 The local declarations are adapted from the following files in the pinned candidate.
 
