@@ -1,0 +1,171 @@
+{
+  "started_utc": "2026-11-23T21:09:22.259163+00:00",
+  "os": "Linux",
+  "arch": "x86_64",
+  "lake_version": "Lake version 5.0.0-src+611c117 (Lean version 4.36.0)",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "mathlib_commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "original_commit": "c7791603122c0328f79e49f6be5d7d4402effc53",
+  "candidate_commit": "eb1bc40eb455decc150131a2f2fca72c72ae3a2d",
+  "lake_manifest_sha256": "0dc1b3c3981cf0d8337c95b1149dd3f9689070031b1f4138aaa57778b144c942",
+  "edit_module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries",
+  "before": "exact (Submodule.mem_span_range_iff_exists_fun T).1 hm",
+  "after": "exact id ((Submodule.mem_span_range_iff_exists_fun T).1 hm)",
+  "sample_sleep_seconds": 0.025,
+  "lean_num_threads": 1,
+  "facet": "olean",
+  "trials": [
+    {
+      "pair": 0,
+      "layout": "separate",
+      "direction": "no edit",
+      "target_oleans_rewritten": [],
+      "wall_s": 5.9272,
+      "rebuilt": [],
+      "peak_process_group_rss_kib": 995156,
+      "peak_compiler_sum_rss_kib": 0,
+      "max_simultaneous_compilers": 0,
+      "samples": 233
+    },
+    {
+      "pair": 0,
+      "layout": "bundle",
+      "direction": "no edit",
+      "target_oleans_rewritten": [],
+      "wall_s": 6.3099,
+      "rebuilt": [],
+      "peak_process_group_rss_kib": 995332,
+      "peak_compiler_sum_rss_kib": 0,
+      "max_simultaneous_compilers": 0,
+      "samples": 246
+    },
+    {
+      "pair": 1,
+      "layout": "separate",
+      "direction": "forward",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "wall_s": 8.3871,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "peak_process_group_rss_kib": 3879808,
+      "peak_compiler_sum_rss_kib": 2860296,
+      "max_simultaneous_compilers": 1,
+      "samples": 330
+    },
+    {
+      "pair": 1,
+      "layout": "bundle",
+      "direction": "forward",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "wall_s": 9.7252,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "peak_process_group_rss_kib": 3983672,
+      "peak_compiler_sum_rss_kib": 2959600,
+      "max_simultaneous_compilers": 1,
+      "samples": 379
+    },
+    {
+      "pair": 2,
+      "layout": "bundle",
+      "direction": "reverse",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "wall_s": 9.4271,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "peak_process_group_rss_kib": 3997928,
+      "peak_compiler_sum_rss_kib": 2973408,
+      "max_simultaneous_compilers": 1,
+      "samples": 368
+    },
+    {
+      "pair": 2,
+      "layout": "separate",
+      "direction": "reverse",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "wall_s": 8.176,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "peak_process_group_rss_kib": 3891096,
+      "peak_compiler_sum_rss_kib": 2863488,
+      "max_simultaneous_compilers": 1,
+      "samples": 319
+    },
+    {
+      "pair": 3,
+      "layout": "bundle",
+      "direction": "forward",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "wall_s": 9.3467,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "peak_process_group_rss_kib": 3989292,
+      "peak_compiler_sum_rss_kib": 2960116,
+      "max_simultaneous_compilers": 1,
+      "samples": 366
+    },
+    {
+      "pair": 3,
+      "layout": "separate",
+      "direction": "forward",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "wall_s": 7.8437,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "peak_process_group_rss_kib": 3886552,
+      "peak_compiler_sum_rss_kib": 2862756,
+      "max_simultaneous_compilers": 1,
+      "samples": 309
+    },
+    {
+      "pair": 4,
+      "layout": "separate",
+      "direction": "reverse",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "wall_s": 8.3309,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries"
+      ],
+      "peak_process_group_rss_kib": 3878676,
+      "peak_compiler_sum_rss_kib": 2860140,
+      "max_simultaneous_compilers": 1,
+      "samples": 326
+    },
+    {
+      "pair": 4,
+      "layout": "bundle",
+      "direction": "reverse",
+      "target_oleans_rewritten": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "wall_s": 9.0651,
+      "rebuilt": [
+        "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001"
+      ],
+      "peak_process_group_rss_kib": 3993092,
+      "peak_compiler_sum_rss_kib": 2966152,
+      "max_simultaneous_compilers": 1,
+      "samples": 356
+    }
+  ]
+}

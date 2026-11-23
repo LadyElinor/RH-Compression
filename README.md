@@ -7,6 +7,7 @@ This repository records independent Lean checks for the effort to consolidate th
 | Study | What the test covers |
 | --- | --- |
 | [Six files versus one bundle](benchmark/README.md) | Timings and peak process memory from four paired comparisons of the same proof bodies under Lean 4.36.0. |
+| [One proof edit in the same six files](benchmark/incremental.md) | After a one-line edit, four paired Lake builds averaged 8.18 seconds for the separate files and 9.39 seconds for the bundle. |
 | [Matrix rewrites in PR #272](matrix-rewrite/README.md) | Two failures reproduce in isolation. Both repaired algebraic steps compile and pass kernel replay. |
 | [Hermitian-form rewrite in PR #287](hermitian-rewrite/README.md) | Reproduces a failure in a shared prerequisite of the two PR #266 importers and kernel-checks the proposed one-line repair. |
 | [Extent of upstream verification](upstream-checks/README.md) | Three complete source modules passed kernel replay, including the actual closed-point definition. A separate cached module passed an input-matched restore and replay. The three-target build has its own checkpoint. |

@@ -13,6 +13,8 @@ The benchmark uses `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bu
 
 Each run started with one untimed Mathlib import. For each comparison every measured source compiled in a fresh Lean process, with one compiler thread and a fresh output directory. The original sources required six invocations and the bundle required one. Elapsed time is summed across the serial invocations. Peak memory is the largest Linux child-process resident set size in each group. The overall time saving is calculated from the unrounded totals, 75.3673 and 24.8110 seconds. [First run](measurements.json) · [Repeat with freshly downloaded source](replication.json)
 
+After both layouts were already built, one edit to `FlatMvPowerSeries` took 8.18 seconds on average to rebuild separately and 9.39 seconds in the bundle. [One-edit Lake benchmark and measurements](incremental.md)
+
 ## What these measurements establish
 
 This bundle saves time in a serial build with compiled Mathlib dependencies available. The measurements include compiler startup, import loading, elaboration and writing Lean module artifacts. They exclude downloading dependencies, Lake scheduling, native compilation, linking and kernel replay. Both runs used the same Linux x86-64 workspace (AMD EPYC 9V45, 9.7 GiB reported memory). The host can have other workloads.
