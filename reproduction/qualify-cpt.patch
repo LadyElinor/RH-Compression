@@ -1,0 +1,5 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/SplitKernelFormalGroupOfRationalTorsion.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/SplitKernelFormalGroupOfRationalTorsion.lean
+@@ -466 +466 @@
+-      fun b i => by simpa [cpt] using hα.1 b i
++      fun b i => by simpa [GlobalTheory.PlaceInt.cpt] using hα.1 b i

@@ -1,0 +1,15 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Build completed successfully (4876 jobs).
+reproduction/Before.lean:10:23: error: Invalid simp theorem: Expected a proposition, but found
+  (A : Type) → [inst : CommRing A] → [IsLocalRing A] → ↥(Sp A)
+reproduction/Before.lean:10:16: error: Type mismatch: After simplification, term
+  hα.left b i
+ has type
+  Not (IsUnit (α b i))
+but is expected to have type
+  Not (IsUnit (MvPowerSeries.constantCoeff (PlaceInt.cpt (α b) i)))
+Build completed successfully (4878 jobs).
+replaying Contributions
+replaying After
+'GlobalTheory.SplitKernel.regression_constantCoeff_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: reproduced the collision, compiled the repair, and replayed the reduced theorem.
