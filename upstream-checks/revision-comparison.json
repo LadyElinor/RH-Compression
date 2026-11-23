@@ -1,0 +1,103 @@
+{
+  "base": "d4e7aaaaac1c4d07b3eadf35638fedfbb4ab3509",
+  "head": "8d4938534bb96a38bd646569fa37a81e542d8ba2",
+  "commits_ahead": 84,
+  "changed_repository_files": 52,
+  "targets": [
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SplitKernelFormalGroupOfRationalTorsion",
+      "project_sources": 10185,
+      "changed_sources": []
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHvPrimaryKernel",
+      "project_sources": 18278,
+      "changed_sources": [
+        "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsEqnIffGeneratesAtInv.lean",
+        "src/Development/AbelianVarietyTheory/Definitions/Divisors/Bundle0029.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/Bundle0078.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/HilbertClassFieldOfGlobalArtinReciprocity.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/Bundle0769.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/Bundle0780.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/StandardBaseFlagComplementIntegralLattice.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/Bundle0276.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/Bundle0585.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/Bundle0599.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Bundle0164.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Bundle0178.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsConjugateModelSameThetaFunctions.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsIrreducibleFixed.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/VacuumEntireAndNormalizedJetsAlgebraic.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/Bundle0046.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/Bundle0104.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/Bundle0134.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IsMulRightInvariantOfFundamentalDomain.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ParahoricLevelLiftsExist.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Bundle0086.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Bundle0087.lean",
+        "src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/Bundle0234.lean"
+      ]
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.SumHarmonicValuesFormalKernelSimilitude",
+      "project_sources": 18273,
+      "changed_sources": [
+        "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsEqnIffGeneratesAtInv.lean",
+        "src/Development/AbelianVarietyTheory/Definitions/Divisors/Bundle0029.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/Bundle0078.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/HilbertClassFieldOfGlobalArtinReciprocity.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/Bundle0769.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/Bundle0780.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/StandardBaseFlagComplementIntegralLattice.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/Bundle0276.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/Bundle0585.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/Bundle0599.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Bundle0164.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Bundle0178.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsConjugateModelSameThetaFunctions.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsIrreducibleFixed.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/VacuumEntireAndNormalizedJetsAlgebraic.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/Bundle0046.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/Bundle0104.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/Bundle0134.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IsMulRightInvariantOfFundamentalDomain.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ParahoricLevelLiftsExist.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Bundle0086.lean",
+        "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Bundle0087.lean",
+        "src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/Bundle0234.lean"
+      ]
+    }
+  ],
+  "previously_kernel_replayed_direct_imports": [
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.Bundle0003",
+      "project_sources": 12,
+      "changed_sources": []
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsDiscreteValuationRingIntegralClosure",
+      "project_sources": 19,
+      "changed_sources": []
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0015",
+      "project_sources": 78,
+      "changed_sources": []
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.Bundle0001",
+      "project_sources": 1,
+      "changed_sources": []
+    },
+    {
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniversalCharts.Bundle0002",
+      "project_sources": 5,
+      "changed_sources": []
+    },
+    {
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Bundle0007",
+      "project_sources": 51,
+      "changed_sources": []
+    }
+  ]
+}
