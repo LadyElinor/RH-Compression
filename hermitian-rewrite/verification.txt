@@ -1,0 +1,12 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+hermitian-rewrite/CastBefore.lean:11:24: error: invalid `▸` notation, expected result type of cast is 
+  IsIntegral ℤ (∑ i, x i * cc (y i))
+however, the equality 
+  ha
+of type 
+  ↑a = stdForm x y
+does not contain the expected result type on either the left or the right hand side
+replaying HermForms
+replaying CastAfter
+'witness_iff_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+PASS: reproduced the cast failure and kernel-replayed the repaired integrality step.

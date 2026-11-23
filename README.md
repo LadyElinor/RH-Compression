@@ -1,6 +1,6 @@
 # RH Compression
 
-This repository records independent Lean checks for the effort to consolidate the formalization published by Levent Alpöge. The checks below cover two repairs submitted by **dga471**, two full upstream dependencies, and the cost of compiling six original modules separately or as one bundle. [Original source](https://alpo.ge/remark.pdf) · [Rohan Arun’s consolidation PR #120](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [dga471’s repair, PR #266](https://github.com/rohanarun/riemann-hypothesis/pull/266)
+This repository records independent Lean checks for the effort to consolidate the formalization published by Levent Alpöge. The checks below cover repairs submitted by **dga471**, two full upstream dependencies, and the cost of compiling six original modules separately or as one bundle. [Original source](https://alpo.ge/remark.pdf) · [Rohan Arun’s consolidation PR #120](https://github.com/leanprover-community/riemann-hypothesis/pull/120) · [dga471’s repair, PR #266](https://github.com/rohanarun/riemann-hypothesis/pull/266)
 
 ## Results
 
@@ -8,6 +8,7 @@ This repository records independent Lean checks for the effort to consolidate th
 | --- | --- |
 | [Six files versus one bundle](benchmark/README.md) | Timings and peak process memory from four paired comparisons of the same proof bodies under Lean 4.36.0. |
 | [Matrix rewrites in PR #272](matrix-rewrite/README.md) | Two failures reproduce in isolation. Both repaired algebraic steps compile and pass kernel replay. |
+| [Hermitian-form rewrite in PR #287](hermitian-rewrite/README.md) | Reproduces a failure in a shared prerequisite of the two PR #266 importers and kernel-checks the proposed one-line repair. |
 | [Extent of upstream verification](upstream-checks/README.md) | Two complete upstream dependencies compiled and passed kernel replay. The record identifies the remaining full-module check for PR #266. |
 
 ## Why one name broke the build
