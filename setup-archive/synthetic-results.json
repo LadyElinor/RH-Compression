@@ -1,0 +1,86 @@
+{
+  "started_utc": "2026-11-28T02:52:33.068173+00:00",
+  "trial_filesystem": "ext4",
+  "benchmark_sha256": "c60b9172d45f40ff5147d073d5286ebb93301ed64fc90f91e06fefd814eb3fd8",
+  "scope": "Single synthetic storage trial; generated strings and opaque fixture witnesses.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "zlib": "1.3.2",
+  "manager_sha256": "b61b22d8ae830154acdb8d8a101ec806a88adc1e8c69cb1695f0bf69654e05c6",
+  "fixture": {
+    "modules": 12,
+    "imports_per_module": 3000,
+    "protected_files": 36,
+    "setup_tree_sha256": "f8cc29f584d958447080baa6a43f4f0e85f0a7ad2b53ebb932f74c2a700e68ea",
+    "protected_tree_sha256": "f3ef18ae9c2b4e176b44419d1169d450924137ea47095298510aa7e6674bc027"
+  },
+  "plan": {
+    "input_bytes": 17676588,
+    "gzip_bytes": 1032782,
+    "receipt_bytes": 5592,
+    "file_content_savings_bytes": 16638214
+  },
+  "storage": {
+    "units": "bytes; allocated totals sum Linux st_blocks * 512 for files and directories",
+    "stock": {
+      "regular_files": 48,
+      "directories": 10,
+      "file_bytes": 17678028,
+      "allocated_bytes_including_dirs": 17883136,
+      "live_setup_bytes": 17676588,
+      "original_other_file_bytes": 1440,
+      "additional_file_bytes": 0
+    },
+    "managed_before": {
+      "regular_files": 48,
+      "directories": 10,
+      "file_bytes": 17678028,
+      "allocated_bytes_including_dirs": 17883136,
+      "live_setup_bytes": 17676588,
+      "original_other_file_bytes": 1440,
+      "additional_file_bytes": 0
+    },
+    "packed": {
+      "regular_files": 61,
+      "directories": 23,
+      "file_bytes": 1039814,
+      "allocated_bytes_including_dirs": 1372160,
+      "live_setup_bytes": 0,
+      "original_other_file_bytes": 1440,
+      "additional_file_bytes": 1038374
+    },
+    "restored": {
+      "regular_files": 49,
+      "directories": 11,
+      "file_bytes": 17678028,
+      "allocated_bytes_including_dirs": 17887232,
+      "live_setup_bytes": 17676588,
+      "original_other_file_bytes": 1440,
+      "additional_file_bytes": 0
+    },
+    "packed_gzip_bytes": 1032782,
+    "packed_metadata_file_bytes": 5592,
+    "net_file_bytes_saved": 16638214,
+    "net_allocated_bytes_saved": 16510976
+  },
+  "operations": {
+    "plan": {
+      "elapsed_s": 0.11411,
+      "process_peak_rss_kib": 12764
+    },
+    "pack": {
+      "elapsed_s": 0.242534,
+      "process_peak_rss_kib": 13044
+    },
+    "restore": {
+      "elapsed_s": 0.229725,
+      "process_peak_rss_kib": 13008
+    }
+  },
+  "verification": {
+    "plan_preserved_input_tree": true,
+    "all_selected_setups_absent_after_pack": true,
+    "all_protected_files_byte_equal_stock_while_packed": true,
+    "all_restored_original_files_byte_equal_stock": true
+  }
+}

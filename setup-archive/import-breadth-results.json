@@ -1,0 +1,123 @@
+{
+  "started_utc": "2026-11-28T02:53:20.172138+00:00",
+  "source_sha256": "f6eca8d376b42fddff023631fab86e93494b1603b65b645ee14471ae213e19ac",
+  "script_sha256": "7a9450abd4cdf3e36033e78cca585f330c99c0dbbc6029555640881276ed1b22",
+  "manager_sha256": "b61b22d8ae830154acdb8d8a101ec806a88adc1e8c69cb1695f0bf69654e05c6",
+  "measurement_harness_sha256": "4830e227ab972f9db3fd9d782a744a3a3a215dfe10178023107e14f115731c8a",
+  "lean_version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "filesystem": "ext4",
+  "block_bytes": 4096,
+  "sample_pause_s": 0.01,
+  "lean_num_threads": 2,
+  "plan_measurement": {
+    "exit": 0,
+    "elapsed_s": 0.06,
+    "sampled_peak_group_rss_kib": 12160,
+    "max_simultaneous_lean": 0,
+    "samples": 6
+  },
+  "plan_by_import_count": {
+    "8": {
+      "action": "would_archive",
+      "gzip_bytes": 275,
+      "input_allocated_bytes": 4096,
+      "input_bytes": 1457,
+      "module": "ImportBreadth.Small",
+      "receipt_bytes": 457,
+      "staging_file_bytes": 766
+    },
+    "32": {
+      "action": "would_archive",
+      "gzip_bytes": 418,
+      "input_allocated_bytes": 8192,
+      "input_bytes": 5394,
+      "module": "ImportBreadth.Medium",
+      "receipt_bytes": 458,
+      "staging_file_bytes": 911
+    },
+    "128": {
+      "action": "would_archive",
+      "gzip_bytes": 958,
+      "input_allocated_bytes": 24576,
+      "input_bytes": 21136,
+      "module": "ImportBreadth.Wide",
+      "receipt_bytes": 457,
+      "staging_file_bytes": 1448
+    }
+  },
+  "trials": [
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.3533,
+          "sampled_peak_group_rss_kib": 591836,
+          "max_simultaneous_lean": 1,
+          "samples": 34
+        }
+      },
+      "storage": {
+        "before": {
+          "apparent_bytes": 1276620,
+          "allocated_bytes": 5009408
+        },
+        "after_lake": {
+          "apparent_bytes": 1305671,
+          "allocated_bytes": 5062656
+        },
+        "final": {
+          "apparent_bytes": 1305671,
+          "allocated_bytes": 5062656
+        }
+      },
+      "final_build_sha256": "ed1a906a33572286f996a37de8169bc330721630600790dae972d6ce97a32aed"
+    },
+    {
+      "mode": "managed",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0597,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 6
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.3622,
+          "sampled_peak_group_rss_kib": 583696,
+          "max_simultaneous_lean": 1,
+          "samples": 35
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0638,
+          "sampled_peak_group_rss_kib": 12032,
+          "max_simultaneous_lean": 0,
+          "samples": 6
+        }
+      },
+      "storage": {
+        "before": {
+          "apparent_bytes": 1276620,
+          "allocated_bytes": 5009408
+        },
+        "packed": {
+          "apparent_bytes": 1256899,
+          "allocated_bytes": 5001216
+        },
+        "after_lake": {
+          "apparent_bytes": 1285950,
+          "allocated_bytes": 5054464
+        },
+        "final": {
+          "apparent_bytes": 1305671,
+          "allocated_bytes": 5066752
+        }
+      },
+      "final_build_sha256": "ed1a906a33572286f996a37de8169bc330721630600790dae972d6ce97a32aed"
+    }
+  ],
+  "packed_allocated_savings_bytes": 8192
+}

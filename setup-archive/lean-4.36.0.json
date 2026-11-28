@@ -1,0 +1,2615 @@
+{
+  "started_utc": "2026-11-28T02:51:00.764226+00:00",
+  "benchmark_sha256": "4830e227ab972f9db3fd9d782a744a3a3a215dfe10178023107e14f115731c8a",
+  "fixture_sha256": "6d095f1d1b76bc2ef181b6d6852a1949d6c9d1cd42fc267bd40f3f6843c836c1",
+  "manager_sha256": "b61b22d8ae830154acdb8d8a101ec806a88adc1e8c69cb1695f0bf69654e05c6",
+  "lean_version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "lake_version": "Lake version 5.0.0-src+611c117 (Lean version 4.36.0)",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "lean_num_threads": 4,
+  "sample_pause_s": 0.01,
+  "pairs": 2,
+  "storage_columns": [
+    "regular files",
+    "apparent file bytes",
+    "allocated bytes including directories"
+  ],
+  "trials": [
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.8615,
+          "sampled_peak_group_rss_kib": 1059476,
+          "max_simultaneous_lean": 2,
+          "samples": 81
+        }
+      },
+      "storage": {
+        "initial": {},
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.8615,
+      "sampled_cycle_peak_group_rss_kib": 1059476,
+      "pair": 1,
+      "scenario": "parallel_clean"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7704,
+          "sampled_peak_group_rss_kib": 1052716,
+          "max_simultaneous_lean": 2,
+          "samples": 70
+        },
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0811,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0734,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        }
+      },
+      "storage": {
+        "initial": {},
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.9249,
+      "sampled_cycle_peak_group_rss_kib": 1052716,
+      "pair": 1,
+      "scenario": "parallel_clean"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0791,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.073,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.1464,
+          "sampled_peak_group_rss_kib": 114144,
+          "max_simultaneous_lean": 0,
+          "samples": 15
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.2985,
+      "sampled_cycle_peak_group_rss_kib": 114144,
+      "pair": 1,
+      "scenario": "warm_no_build"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.1467,
+          "sampled_peak_group_rss_kib": 114172,
+          "max_simultaneous_lean": 0,
+          "samples": 15
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.1467,
+      "sampled_cycle_peak_group_rss_kib": 114172,
+      "pair": 1,
+      "scenario": "warm_no_build"
+    },
+    {
+      "mode": "setups_absent",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0781,
+          "sampled_peak_group_rss_kib": 12416,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.1494,
+          "sampled_peak_group_rss_kib": 114104,
+          "max_simultaneous_lean": 0,
+          "samples": 15
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0848,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [],
+      "target_setups_present_after_lake": [],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.3123,
+      "sampled_cycle_peak_group_rss_kib": 114104,
+      "pair": 1,
+      "scenario": "warm_no_build"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.6516,
+          "sampled_peak_group_rss_kib": 1042912,
+          "max_simultaneous_lean": 2,
+          "samples": 63
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "6703ae25ddc881185795fb4fc1b46409fe0f0e5d428fe03f64942d9f9c96c63a",
+      "measured_cycle_elapsed_s": 0.6516,
+      "sampled_cycle_peak_group_rss_kib": 1042912,
+      "pair": 1,
+      "scenario": "incremental"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0735,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0605,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 6
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7502,
+          "sampled_peak_group_rss_kib": 1041396,
+          "max_simultaneous_lean": 2,
+          "samples": 71
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "6703ae25ddc881185795fb4fc1b46409fe0f0e5d428fe03f64942d9f9c96c63a",
+      "measured_cycle_elapsed_s": 0.8842,
+      "sampled_cycle_peak_group_rss_kib": 1041396,
+      "pair": 1,
+      "scenario": "incremental"
+    },
+    {
+      "mode": "setups_absent",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0756,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.6586,
+          "sampled_peak_group_rss_kib": 1048752,
+          "max_simultaneous_lean": 2,
+          "samples": 62
+        },
+        "refused_restore": {
+          "exit": 1,
+          "elapsed_s": 0.0499,
+          "sampled_peak_group_rss_kib": 11904,
+          "max_simultaneous_lean": 0,
+          "samples": 5
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "restore_diagnostic": "setup-archive: completion witness changed for ArchiveFixture: olean_sha256",
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "6703ae25ddc881185795fb4fc1b46409fe0f0e5d428fe03f64942d9f9c96c63a",
+      "measured_cycle_elapsed_s": 0.7841,
+      "sampled_cycle_peak_group_rss_kib": 1048752,
+      "pair": 1,
+      "scenario": "incremental"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0737,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0736,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.8577,
+          "sampled_peak_group_rss_kib": 588688,
+          "max_simultaneous_lean": 1,
+          "samples": 81
+        },
+        "execute": {
+          "exit": 0,
+          "elapsed_s": 0.0083,
+          "sampled_peak_group_rss_kib": 148,
+          "max_simultaneous_lean": 0,
+          "samples": 1
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        }
+      },
+      "stdout": "13",
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 59,
+      "protected_manifest_sha256": "ebc53024aa5a30f85225c1ebe3d24f6da9444f48b6ef98974adb3ebb1723514e",
+      "measured_cycle_elapsed_s": 1.0133,
+      "sampled_cycle_peak_group_rss_kib": 588688,
+      "pair": 1,
+      "scenario": "native"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7565,
+          "sampled_peak_group_rss_kib": 580848,
+          "max_simultaneous_lean": 1,
+          "samples": 73
+        },
+        "execute": {
+          "exit": 0,
+          "elapsed_s": 0.0039,
+          "sampled_peak_group_rss_kib": 0,
+          "max_simultaneous_lean": 0,
+          "samples": 1
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        }
+      },
+      "stdout": "13",
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 59,
+      "protected_manifest_sha256": "ebc53024aa5a30f85225c1ebe3d24f6da9444f48b6ef98974adb3ebb1723514e",
+      "measured_cycle_elapsed_s": 0.7604,
+      "sampled_cycle_peak_group_rss_kib": 580848,
+      "pair": 1,
+      "scenario": "native"
+    },
+    {
+      "mode": "setups_absent",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0748,
+          "sampled_peak_group_rss_kib": 12416,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7552,
+          "sampled_peak_group_rss_kib": 601876,
+          "max_simultaneous_lean": 1,
+          "samples": 71
+        },
+        "execute": {
+          "exit": 0,
+          "elapsed_s": 0.0082,
+          "sampled_peak_group_rss_kib": 0,
+          "max_simultaneous_lean": 0,
+          "samples": 1
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.1172,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 10
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        }
+      },
+      "stdout": "13",
+      "target_setups_present_after_lake": [],
+      "protected_build_files": 59,
+      "protected_manifest_sha256": "ebc53024aa5a30f85225c1ebe3d24f6da9444f48b6ef98974adb3ebb1723514e",
+      "measured_cycle_elapsed_s": 0.9554,
+      "sampled_cycle_peak_group_rss_kib": 601876,
+      "pair": 1,
+      "scenario": "native"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 2.6934,
+          "sampled_peak_group_rss_kib": 915380,
+          "max_simultaneous_lean": 0,
+          "samples": 256
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "replayed": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 2.6934,
+      "sampled_cycle_peak_group_rss_kib": 915380,
+      "pair": 1,
+      "scenario": "kernel"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.1063,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 10
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0703,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 1.5174,
+          "sampled_peak_group_rss_kib": 903700,
+          "max_simultaneous_lean": 0,
+          "samples": 144
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "replayed": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 1.694,
+      "sampled_cycle_peak_group_rss_kib": 903700,
+      "pair": 1,
+      "scenario": "kernel"
+    },
+    {
+      "mode": "setups_absent",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0746,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 1.0789,
+          "sampled_peak_group_rss_kib": 832904,
+          "max_simultaneous_lean": 0,
+          "samples": 103
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0667,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "replayed": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 1.2202,
+      "sampled_cycle_peak_group_rss_kib": 832904,
+      "pair": 1,
+      "scenario": "kernel"
+    },
+    {
+      "mode": "archived_dependencies",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0674,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.2552,
+          "sampled_peak_group_rss_kib": 585012,
+          "max_simultaneous_lean": 1,
+          "samples": 25
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0906,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            2,
+            930,
+            8192
+          ],
+          "archive": [
+            5,
+            1263,
+            28672
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            2,
+            930,
+            8192
+          ],
+          "archive": [
+            5,
+            1263,
+            28672
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture.Next"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 36,
+      "protected_manifest_sha256": "1883b33beb82acf45f85d7bae46be43f622bb87ede0b922a3694d28730698f7f",
+      "measured_cycle_elapsed_s": 0.4132,
+      "sampled_cycle_peak_group_rss_kib": 585012,
+      "pair": 1,
+      "scenario": "new_dependent"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.3554,
+          "sampled_peak_group_rss_kib": 578752,
+          "max_simultaneous_lean": 1,
+          "samples": 34
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture.Next"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 36,
+      "protected_manifest_sha256": "1883b33beb82acf45f85d7bae46be43f622bb87ede0b922a3694d28730698f7f",
+      "measured_cycle_elapsed_s": 0.3554,
+      "sampled_cycle_peak_group_rss_kib": 578752,
+      "pair": 1,
+      "scenario": "new_dependent"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.6566,
+          "sampled_peak_group_rss_kib": 1059284,
+          "max_simultaneous_lean": 2,
+          "samples": 62
+        },
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.083,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0812,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        }
+      },
+      "storage": {
+        "initial": {},
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.8208,
+      "sampled_cycle_peak_group_rss_kib": 1059284,
+      "pair": 2,
+      "scenario": "parallel_clean"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7603,
+          "sampled_peak_group_rss_kib": 1052920,
+          "max_simultaneous_lean": 2,
+          "samples": 73
+        }
+      },
+      "storage": {
+        "initial": {},
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.7603,
+      "sampled_cycle_peak_group_rss_kib": 1052920,
+      "pair": 2,
+      "scenario": "parallel_clean"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.1883,
+          "sampled_peak_group_rss_kib": 114108,
+          "max_simultaneous_lean": 0,
+          "samples": 17
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.1883,
+      "sampled_cycle_peak_group_rss_kib": 114108,
+      "pair": 2,
+      "scenario": "warm_no_build"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0821,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0724,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.164,
+          "sampled_peak_group_rss_kib": 114120,
+          "max_simultaneous_lean": 0,
+          "samples": 16
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "built": [],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 0.3185,
+      "sampled_cycle_peak_group_rss_kib": 114120,
+      "pair": 2,
+      "scenario": "warm_no_build"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0739,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0739,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7564,
+          "sampled_peak_group_rss_kib": 1038956,
+          "max_simultaneous_lean": 2,
+          "samples": 72
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "6703ae25ddc881185795fb4fc1b46409fe0f0e5d428fe03f64942d9f9c96c63a",
+      "measured_cycle_elapsed_s": 0.9042,
+      "sampled_cycle_peak_group_rss_kib": 1038956,
+      "pair": 2,
+      "scenario": "incremental"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7604,
+          "sampled_peak_group_rss_kib": 1062340,
+          "max_simultaneous_lean": 2,
+          "samples": 70
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51743,
+            167936
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "6703ae25ddc881185795fb4fc1b46409fe0f0e5d428fe03f64942d9f9c96c63a",
+      "measured_cycle_elapsed_s": 0.7604,
+      "sampled_cycle_peak_group_rss_kib": 1062340,
+      "pair": 2,
+      "scenario": "incremental"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.7589,
+          "sampled_peak_group_rss_kib": 599648,
+          "max_simultaneous_lean": 1,
+          "samples": 72
+        },
+        "execute": {
+          "exit": 0,
+          "elapsed_s": 0.0082,
+          "sampled_peak_group_rss_kib": 0,
+          "max_simultaneous_lean": 0,
+          "samples": 1
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        }
+      },
+      "stdout": "13",
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 59,
+      "protected_manifest_sha256": "ebc53024aa5a30f85225c1ebe3d24f6da9444f48b6ef98974adb3ebb1723514e",
+      "measured_cycle_elapsed_s": 0.7671,
+      "sampled_cycle_peak_group_rss_kib": 599648,
+      "pair": 2,
+      "scenario": "native"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0811,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0747,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.6535,
+          "sampled_peak_group_rss_kib": 582816,
+          "max_simultaneous_lean": 1,
+          "samples": 63
+        },
+        "execute": {
+          "exit": 0,
+          "elapsed_s": 0.0039,
+          "sampled_peak_group_rss_kib": 0,
+          "max_simultaneous_lean": 0,
+          "samples": 1
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            59,
+            5555016,
+            5771264
+          ]
+        }
+      },
+      "stdout": "13",
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 59,
+      "protected_manifest_sha256": "ebc53024aa5a30f85225c1ebe3d24f6da9444f48b6ef98974adb3ebb1723514e",
+      "measured_cycle_elapsed_s": 0.8132,
+      "sampled_cycle_peak_group_rss_kib": 582816,
+      "pair": 2,
+      "scenario": "native"
+    },
+    {
+      "mode": "restored",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0806,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0728,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 8
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 1.5319,
+          "sampled_peak_group_rss_kib": 817140,
+          "max_simultaneous_lean": 0,
+          "samples": 147
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            0,
+            0,
+            0
+          ],
+          "archive": [
+            9,
+            2635,
+            53248
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "replayed": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 1.6853,
+      "sampled_cycle_peak_group_rss_kib": 817140,
+      "pair": 2,
+      "scenario": "kernel"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 1.3304,
+          "sampled_peak_group_rss_kib": 834012,
+          "max_simultaneous_lean": 0,
+          "samples": 128
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        }
+      },
+      "replayed": [
+        "ArchiveFixture",
+        "ArchiveFixture.Base",
+        "ArchiveFixture.Left",
+        "ArchiveFixture.Right"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 28,
+      "protected_manifest_sha256": "ff04aac3dc2445dc30550fa0247114da7364ef645932bdbdb1c189bbf0d0d99b",
+      "measured_cycle_elapsed_s": 1.3304,
+      "sampled_cycle_peak_group_rss_kib": 834012,
+      "pair": 2,
+      "scenario": "kernel"
+    },
+    {
+      "mode": "stock",
+      "operations": {
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.2562,
+          "sampled_peak_group_rss_kib": 585188,
+          "max_simultaneous_lean": 1,
+          "samples": 25
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture.Next"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Base.setup.json",
+        "ir/ArchiveFixture/Left.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 36,
+      "protected_manifest_sha256": "1883b33beb82acf45f85d7bae46be43f622bb87ede0b922a3694d28730698f7f",
+      "measured_cycle_elapsed_s": 0.2562,
+      "sampled_cycle_peak_group_rss_kib": 585188,
+      "pair": 2,
+      "scenario": "new_dependent"
+    },
+    {
+      "mode": "archived_dependencies",
+      "operations": {
+        "pack": {
+          "exit": 0,
+          "elapsed_s": 0.0703,
+          "sampled_peak_group_rss_kib": 12288,
+          "max_simultaneous_lean": 0,
+          "samples": 7
+        },
+        "lake": {
+          "exit": 0,
+          "elapsed_s": 0.25,
+          "sampled_peak_group_rss_kib": 578768,
+          "max_simultaneous_lean": 1,
+          "samples": 24
+        },
+        "restore": {
+          "exit": 0,
+          "elapsed_s": 0.0615,
+          "sampled_peak_group_rss_kib": 12160,
+          "max_simultaneous_lean": 0,
+          "samples": 6
+        }
+      },
+      "storage": {
+        "initial": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "pack": {
+          "setup": [
+            2,
+            930,
+            8192
+          ],
+          "archive": [
+            5,
+            1263,
+            28672
+          ],
+          "other": [
+            28,
+            51871,
+            167936
+          ]
+        },
+        "after_lake": {
+          "setup": [
+            2,
+            930,
+            8192
+          ],
+          "archive": [
+            5,
+            1263,
+            28672
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        },
+        "restore": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        },
+        "final": {
+          "setup": [
+            4,
+            1385,
+            16384
+          ],
+          "archive": [
+            1,
+            0,
+            4096
+          ],
+          "other": [
+            36,
+            61474,
+            204800
+          ]
+        }
+      },
+      "built": [
+        "ArchiveFixture.Next"
+      ],
+      "target_setups_present_after_lake": [
+        "ir/ArchiveFixture.setup.json",
+        "ir/ArchiveFixture/Right.setup.json"
+      ],
+      "protected_build_files": 36,
+      "protected_manifest_sha256": "1883b33beb82acf45f85d7bae46be43f622bb87ede0b922a3694d28730698f7f",
+      "measured_cycle_elapsed_s": 0.3818,
+      "sampled_cycle_peak_group_rss_kib": 578768,
+      "pair": 2,
+      "scenario": "new_dependent"
+    }
+  ],
+  "trial_filesystem": "ext4",
+  "filesystem_block_bytes": 4096,
+  "baseline_build_sha256": "6a8cd1dcce00bf011d4391ba5922b5708b2768877d5c17a59494085f5e9c53ae"
+}
