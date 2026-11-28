@@ -1,0 +1,6 @@
+name = "archive_fixture"
+[[lean_lib]]
+name = "ArchiveFixture"
+[[lean_exe]]
+name = "fixture_check"
+root = "Main"

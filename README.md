@@ -11,6 +11,7 @@ This repository records independent Lean checks for the effort to consolidate th
 | [Matrix rewrites in PR #272](matrix-rewrite/README.md) | Two failures reproduce in isolation. Both repaired algebraic steps compile and pass kernel replay. |
 | [Hermitian-form rewrite in PR #287](hermitian-rewrite/README.md) | Reproduces a failure in a shared prerequisite of the two PR #266 importers and kernel-checks the proposed one-line repair. |
 | [Focused build on the merged revision](upstream-checks/focused-build.md) | Six of eleven direct project imports built and passed Lake’s up-to-date check. The checkpoint records individual kernel replays and remaining dependencies. |
+| [Archive completed Lean setup files](setup-archive/README.md) | Reversible storage manager, failure-recovery tests and stock-versus-managed builds on two Lean releases. |
 | [Extent of upstream verification](upstream-checks/README.md) | Three complete source modules passed kernel replay, including the actual closed-point definition. A separate cached module passed an input-matched restore and replay. The three-target build has its own checkpoint. |
 
 For the relationship with Rohan Arun’s earlier pruning, the public proof graphs and Keith Adler’s independent verification of the original proof, see the [three-module crosswalk](upstream-checks/pruning-and-proof-maps.md).
